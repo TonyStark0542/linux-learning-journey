@@ -24,17 +24,20 @@ Note: Without a shebang, the default shell is used, which might not match the in
 
 ## Creating my first bash script
 I will be using vim editor to write my scripts
--- vi myfirst.sh
-
+```bash
+vi myfirst.sh
+```
+Add the following commands in my file and saving it:
+```bash
 #!/bin/bash
-
-echo "Hi this is your first bash script file"
+echo "Hi, this is your first bash script file"
+```
 
 ## Executing the bash script
 By default when we create any bash script it doesn't come with exeutable. So we have to assign execution rights to your user using this command:
-
--- chmod u+x myfirst.sh
-
+```bash
+chmod u+x myfirst.sh
+```
 Here,
 - 'chmod' is used to change permissions on a file.
 - '+x' adds the execution rights to the current user.
@@ -44,3 +47,9 @@ To run the script we can use any of this methods:
 - sh myfirst.sh
 - bash myfirst.sh
 - ./myfirst.sh
+
+## Output:
+```bash
+tony@server1:~/bash_tutorial$ sh myfirst.sh
+Hi, this is your first bash script file
+```
