@@ -27,7 +27,7 @@ I will be using vim editor to write my scripts
 ```bash
 vi myfirst.sh
 ```
-Add the following commands in my file and saving it:
+Adding the following commands in my file and saving it:
 ```bash
 #!/bin/bash
 echo "Hi, this is your first bash script file"
