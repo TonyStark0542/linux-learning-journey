@@ -3,13 +3,11 @@
 ## What is a Bash Script?
 A Bash script is a plain text file containing a series of commands intended to be executed by the Bash shell. It's commonly used for automating tasks.
 
----
+## How to Create and Execute Bash scripts
 
 ## Script Naming Conventions
 - By convention, Bash scripts have the `.sh` extension (e.g., `myscript.sh`).
 - **Note**: The `.sh` extension is not mandatory; scripts can run without it.
-
----
 
 ## What is Shebang?
 A shebang is the first line of a script that specifies the interpreter to be used to execute the file. It begins with #!, followed by the full path to the interpreter program (e.g., /bin/bash).
@@ -24,8 +22,6 @@ A shebang is the first line of a script that specifies the interpreter to be use
 
 Note: Without a shebang, the default shell is used, which might not match the intended one.
 
----
-
 ## Creating my first bash script
 I will be using vim editor to write my scripts
 -- vi myfirst.sh
@@ -33,7 +29,6 @@ I will be using vim editor to write my scripts
 #!/bin/bash
 
 echo "Hi this is your first bash script file"
-
 
 ## Executing the bash script
 By default when we create any bash script it doesn't come with exeutable. So we have to assign execution rights to your user using this command:
