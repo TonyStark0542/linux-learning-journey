@@ -1,2 +1,2 @@
 # Linux Learning Journey
-This repository contains my notes, examples, and problem-solving scripts as I learn Linux and Bash scripting.
+This repository contains scripts that I have written during my journey of learning Linux and Bash Scripting.
